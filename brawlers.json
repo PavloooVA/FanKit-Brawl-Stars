@@ -1,0 +1,912 @@
+[
+  {
+    "id": 16000002,
+    "name": "Colt",
+    "slug": "colt",
+    "description": "Colt es la atracción principal de Starr Park. Su carisma, sus trucos con las pistolas y su sonrisa conquistan a cualquiera… excepto a Shelly.",
+    "portraitUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Potraits/colt.png",
+    "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Brawlers/colt.png",
+    "rarity": {
+      "title": "Especial",
+      "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Rarity/rare.png",
+      "color": "#2ECB00"
+    },
+    "class": {
+      "title": "Destructor",
+      "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Class/damage-dealer.png"
+    },
+    "titles": {
+      "mastery": {
+        "text": "El guapo",
+        "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Icons/prestige-1.png"
+      },
+      "prestige": {
+        "text": "PEW PEW PEW",
+        "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Icons/prestige-3.png"
+      }
+    },
+    "stats": {
+      "healthByLevel": [
+        3100, 3410, 3720, 4030, 4340, 4650, 4960, 5270, 5580, 5890, 6200
+      ],
+      "movementSpeed": "Normal",
+      "attack": [
+        {
+          "title": "Revólveres",
+          "description": "Colt dispara una ráfaga de 6 balas de largo alcance.",
+          "buffieModification": "La velocidad de disparo aumenta durante la hipercarga.",
+          "stats": [
+            {
+              "type": "damage",
+              "label": "Daño por bala",
+              "projectiles": 6,
+              "damageByLevel": [
+                320, 352, 384, 416, 448, 480, 512, 544, 576, 608, 640
+              ]
+            },
+            {
+              "type": "range",
+              "label": "Alcance",
+              "value": "Largo"
+            },
+            {
+              "type": "reloadSpeed",
+              "label": "Velocidad de recarga",
+              "value": "Muy rápida"
+            }
+          ]
+        }
+      ],
+      "super": [
+        {
+          "title": "Tormenta de balas",
+          "description": "Colt dispara una ráfaga de 12 balas que atraviesan enemigos y destruyen obstáculos.",
+          "stats": [
+            {
+              "type": "damage",
+              "label": "Daño por bala",
+              "projectiles": 12,
+              "damageByLevel": [
+                320, 352, 384, 416, 448, 480, 512, 544, 576, 608, 640
+              ]
+            },
+            {
+              "type": "range",
+              "label": "Alcance",
+              "value": "Muy largo"
+            }
+          ]
+        }
+      ]
+    },
+    "gadgets": [
+      {
+        "title": "Recarga rápida",
+        "description": "Colt dispara dos tiros rápidos que ralentizan a los enemigos.",
+        "buffieDescription": "Cada impacto roba munición al enemigo.",
+        "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Gadgets/colt-gadget-1.png",
+        "reloadTime": 15
+      },
+      {
+        "title": "Bala de plata",
+        "description": "Colt dispara una bala perforante que atraviesa enemigos y destruye obstáculos.",
+        "buffieDescription": "La bala es más grande y hace más daño.",
+        "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Gadgets/colt-gadget-2.png",
+        "reloadTime": 17
+      }
+    ],
+    "starPowers": [
+      {
+        "title": "Botas veloces",
+        "description": "La velocidad de movimiento de Colt aumenta un 13%.",
+        "buffieDescription": "Obtiene velocidad al golpear enemigos.",
+        "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Star-Powers/colt-star-power-1.png"
+      },
+      {
+        "title": "Pistoletazo",
+        "description": "Aumenta el alcance y la velocidad de las balas.",
+        "buffieDescription": "Inflige más daño a larga distancia.",
+        "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Star-Powers/colt-star-power-2.png"
+      }
+    ],
+    "hypercharge": {
+      "title": "Empuñadura doble",
+      "description": "El ancho del súper aumenta considerablemente.",
+      "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Hypercharge/colt-hypercharge.png",
+      "stats": {
+        "speed": "+20%",
+        "damage": "+5%",
+        "shield": "+5%"
+      }
+    },
+    "buffiesImages": {
+      "gadget": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Buffies/colt-gadget-buffie.png",
+      "starPower": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Buffies/colt-star-power-buffie.png",
+      "hypercharge": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Buffies/colt-hypercharge-buffie.png"
+    },
+    "skins": [
+      {
+        "name": "Colt Forajido",
+        "imageUrl": "...",
+        "obtain": [
+          { "method": "Gemas", "amount": 29 },
+          { "method": "Blines", "amount": 1000 }
+        ],
+        "rarity": {
+          "title": "Super especial",
+          "imageUrl": "..."
+        },
+        "theme": [{ "title": "Bandidos", "imageUrl": "..." }]
+      },
+      {
+        "name": "Colt Rockero",
+        "imageUrl": "...",
+        "obtain": [
+          { "method": "Gemas", "amount": 79 },
+          { "method": "Blines", "amount": 2750 }
+        ],
+        "rarity": {
+          "title": "Especial",
+          "imageUrl": "..."
+        },
+        "theme": [{ "title": "Música", "imageUrl": "..." }]
+      },
+      {
+        "name": "Colt Corsario",
+        "imageUrl": "...",
+        "obtain": [{ "method": "Gemas", "amount": 150 }],
+        "rarity": {
+          "title": "Epica",
+          "imageUrl": "..."
+        },
+        "theme": [{ "title": "Piratas", "imageUrl": "..." }]
+      },
+      {
+        "name": "Colt Plateado",
+        "imageUrl": "...",
+        "obtain": [{ "method": "Monedas", "amount": 10000 }],
+        "theme": [{ "title": "Aspectos plateados", "imageUrl": "..." }]
+      },
+      {
+        "name": "Colt Dorado",
+        "imageUrl": "...",
+        "obtain": [{ "method": "Monedas", "amount": 25000 }],
+        "theme": [{ "title": "Aspectos dorados", "imageUrl": "..." }]
+      }
+    ]
+  },
+  {
+    "id": 16000001,
+    "name": "Nita",
+    "slug": "nita",
+    "description": "¡Furiosa como una bestia, Nita nunca se retira de una pelea! El oso de peluche que lleva en la cabeza es un claro aviso para sus rivales: ni se os ocurra tocarlo.",
+    "portraitUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Potraits/nita.png",
+    "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Brawlers/nita.png",
+    "rarity": {
+      "title": "Especial",
+      "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Rarity/rare.png",
+      "color": "#94D7F4"
+    },
+    "class": {
+      "title": "Destructor",
+      "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Class/damage-dealer.png"
+    },
+    "titles": {
+      "mastery": {
+        "text": "Indomable",
+        "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Icons/prestige-1.png"
+      },
+      "prestige": {
+        "text": "¡Gruuu!",
+        "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Icons/prestige-3.png"
+      }
+    },
+    "stats": {
+      "healthByLevel": [
+        4200, 4620, 5040, 5460, 5880, 6300, 6720, 7140, 7560, 7980, 8400
+      ],
+      "movementSpeed": "Normal",
+      "attack": [
+        {
+          "title": "Temblor",
+          "description": "Nita genera una onda sísmica que daña a aquellos que sientan el temblor.",
+          "buffieModification": "La velocidad, la amplitud y el alcance de los ataques de Nita aumentan",
+          "stats": [
+            {
+              "type": "damage",
+              "label": "Daño",
+              "damageByLevel": [
+                960, 1056, 1152, 1248, 1344, 1440, 1536, 1632, 1728, 1824, 1920
+              ]
+            },
+            {
+              "type": "range",
+              "label": "Alcance",
+              "value": "Normal"
+            },
+            {
+              "type": "reloadSpeed",
+              "label": "Velocidad de recarga",
+              "value": "Muy rápida"
+            }
+          ]
+        }
+      ],
+      "super": [
+        {
+          "title": "Abrazo del oso",
+          "description": "Nita invoca el espíritu de un gran oso que persigue a todo aquel que la moleste.",
+          "stats": [
+            {
+              "type": "petHealth",
+              "label": "Salud del oso",
+              "healthByLevel": [
+                4300, 4730, 5160, 5590, 6020, 6450, 6880, 7310, 7740, 8170, 8600
+              ]
+            },
+            {
+              "type": "petDamage",
+              "label": "Daño del oso",
+              "damageByLevel": [
+                400, 440, 480, 520, 560, 600, 640, 680, 720, 760, 800
+              ]
+            },
+            {
+              "type": "range",
+              "label": "Alcance",
+              "value": "Corto"
+            },
+            {
+              "type": "movementSpeed",
+              "label": "Velocidad de movimiento",
+              "value": "Lenta"
+            }
+          ]
+        }
+      ]
+    },
+    "gadgets": [
+      {
+        "title": "Garras de oso",
+        "description": "El oso de Nita se enfurece y se tira al suelo. Al hacerlo, aturde a todos los rivales que se encuentren en el área de efecto.",
+        "buffieDescription": "El próximo ataque del oso inflige un 50% más de daño.",
+        "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Gadgets/nita-gadget-1.png",
+        "reloadTime": 13
+      },
+      {
+        "title": "Piel protectora",
+        "description": "El oso de Nita consigue un escudo que lo protege un 35% del daño durante 3 segundos.",
+        "buffieDescription": "Nita y el oso se vuelven invulnerables durante 0,5 segundos.",
+        "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Gadgets/nita-gadget-2.png",
+        "reloadTime": 14
+      }
+    ],
+    "starPowers": [
+      {
+        "title": "Hermano oso",
+        "description": "Nita recupera 1092 puntos de salud cuando su oso golpea a un brawler enemigo. Cuando es Nita quien inflige el daño, su oso recupera 1094 puntos de salud",
+        "buffieDescription": "Esta habilidad puede curar a Nita o a su oso 2000 de salud y exceder su salud máxima",
+        "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Star-Powers/nita-star-power-1.png"
+      },
+      {
+        "title": "Zarpazo veloz",
+        "description": "El oso de Nita ataca más rápido. El tiempo entre los zarpazos se reduce en un 60%",
+        "buffieDescription": "Al invocar al oso, la velocidad de recarga de Nita aumenta en un 25% durante 3 segundos.",
+        "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Star-Powers/nita-star-power-2.png"
+      }
+    ],
+    "hypercharge": {
+      "title": "Hipercrecimiento",
+      "description": "Nita hipercarga a Bruce y, además de hacer que aumente de tamaño, aumenta un 15% su velocidad de movimiento y un 20% su salud.",
+      "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Hypercharge/nita-hypercharge.png",
+      "stats": {
+        "speed": "+20%",
+        "damage": "+5%",
+        "shield": "+5%"
+      }
+    },
+    "buffiesImages": {
+      "gadget": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Buffies/nita-gadget-buffie.png",
+      "starPower": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Buffies/nita-star-power-buffie.png",
+      "hypercharge": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Buffies/nita-hypercharge-buffie.png"
+    },
+    "skins": [
+      {
+        "name": "Nita Panda",
+        "imageUrl": "https://static.wikia.nocookie.net/brawlstars/images/6/68/Nita_Skin-Panda.png",
+        "obtain": [
+          { "method": "Gemas", "amount": 29 },
+          { "method": "Blines", "amount": 1000 }
+        ],
+        "rarity": {
+          "title": "Especial",
+          "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Rarity/rare.png"
+        },
+        "theme": [
+          {
+            "title": "Reino animal",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/animal-kingdom.png"
+          }
+        ]
+      },
+      {
+        "name": "Nita Koala",
+        "imageUrl": "https://static.wikia.nocookie.net/brawlstars/images/4/45/Nita_Skin-Koala.png",
+        "obtain": [
+          { "method": "Gemas", "amount": 79 },
+          { "method": "Blines", "amount": 2750 }
+        ],
+        "rarity": {
+          "title": "Super especial",
+          "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Rarity/super-rare.png"
+        },
+        "theme": [
+          {
+            "title": "Reino animal",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/animal-kingdom.png"
+          }
+        ]
+      },
+      {
+        "name": "Nita Ballenita",
+        "imageUrl": "https://static.wikia.nocookie.net/brawlstars/images/5/5a/Nita_Skin-Whale_Watch.png",
+        "obtain": [
+          { "method": "Gemas", "amount": 79 },
+          { "method": "Blines", "amount": 2750 }
+        ],
+        "rarity": {
+          "title": "Super especial",
+          "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Rarity/super-rare.png"
+        },
+        "theme": [
+          {
+            "title": "Supercell Make",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/supercell-make.png"
+          },
+          {
+            "title": "Verano combativo",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/summer-of-brawl.png"
+          }
+        ]
+      },
+      {
+        "name": "Nita Alianza Espacial",
+        "imageUrl": "https://static.wikia.nocookie.net/brawlstars/images/c/c3/Nita_Skin-Runner.png",
+        "obtain": [
+          {
+            "method": "Evento",
+            "description": "Gratis en el evento de Pizza Planeta"
+          },
+          { "method": "Gemas", "amount": 79 }
+        ],
+        "rarity": {
+          "title": "Super especial",
+          "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Rarity/super-rare.png"
+        },
+        "theme": [
+          {
+            "title": "Fuerza estelar en accion",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/starrforce-assemble.png"
+          }
+        ]
+      },
+      {
+        "name": "Nita Abrigadita",
+        "imageUrl": "https://static.wikia.nocookie.net/brawlstars/images/2/27/Nita_Skin-Red_Nose.png",
+        "obtain": [{ "method": "Gemas", "amount": 149 }],
+        "rarity": {
+          "title": "Epica",
+          "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Rarity/epic.png"
+        },
+        "theme": [
+          {
+            "title": "Brawlidad",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/brawlidays.png"
+          }
+        ]
+      },
+      {
+        "name": "Nita Shiba",
+        "imageUrl": "https://static.wikia.nocookie.net/brawlstars/images/d/db/Nita_Skin-Shiba.png",
+        "obtain": [
+          { "method": "Gemas", "amount": 149 },
+          { "method": "Blines", "amount": 5000 }
+        ],
+        "rarity": {
+          "title": "Epica",
+          "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Rarity/epic.png"
+        },
+        "theme": [
+          {
+            "title": "Semana dorada kawaii",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/golden-kawaii.png"
+          }
+        ]
+      },
+      {
+        "name": "Nita Plateada",
+        "imageUrl": "https://static.wikia.nocookie.net/brawlstars/images/9/95/Nita_Skin-True_Silver.png",
+        "obtain": [{ "method": "Monedas", "amount": 10000 }],
+        "theme": [
+          {
+            "title": "Aspectos plateados",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/true-silver.png"
+          }
+        ]
+      },
+      {
+        "name": "Nita Dorada",
+        "imageUrl": "https://static.wikia.nocookie.net/brawlstars/images/d/dc/Nita_Skin-True_Gold.png",
+        "obtain": [{ "method": "Monedas", "amount": 25000 }],
+        "theme": [
+          {
+            "title": "Aspectos dorados",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/true-gold.png"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16000000,
+    "name": "Shelly",
+    "slug": "shelly",
+    "description": "Shelly es la tiradora perfecta: donde pone el ojo, pone la bala. No entiende por qué Colt es quien siempre se lleva las miradas...",
+    "portraitUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Potraits/shelly.png",
+    "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Brawlers/shelly.png",
+    "rarity": {
+      "title": "Inicial",
+      "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Rarity/starting.png",
+      "color": "#94D7F4"
+    },
+    "class": {
+      "title": "Destructor",
+      "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Class/damage-dealer.png"
+    },
+    "titles": {
+      "mastery": {
+        "text": "¡No hay tiempo de explicarlo!",
+        "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Icons/prestige-1.png"
+      },
+      "prestige": {
+        "text": "¡Fantástico!",
+        "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Icons/prestige-3.png"
+      }
+    },
+    "stats": {
+      "healthByLevel": [
+        3900, 4290, 4680, 5070, 5460, 5850, 6240, 6630, 7020, 7410, 7800
+      ],
+      "movementSpeed": "Rápida",
+      "attack": [
+        {
+          "title": "Perdigones",
+          "description": "El arma de Shelly dispara una ráfaga de proyectiles de medio alcance. Mientras más perdigones impacten al objetivo, mayor será el daño.",
+          "buffieModification": "La velocidad del proyectil del ataque principal aumenta bastante durante la hipercarga.",
+          "stats": [
+            {
+              "type": "damage",
+              "label": "Daño",
+              "projectiles": 5,
+              "damageByLevel": [
+                300, 330, 360, 390, 420, 450, 480, 510, 540, 570, 600
+              ]
+            },
+            {
+              "type": "range",
+              "label": "Alcance",
+              "value": "Largo"
+            },
+            {
+              "type": "reloadSpeed",
+              "label": "Velocidad de recarga",
+              "value": "Normal"
+            }
+          ]
+        }
+      ],
+      "super": [
+        {
+          "title": "Superbalas",
+          "description": "El superataque de Shelly arrasa con los refugios y con los enemigos. Quien sobreviva recibirá un impacto hacia atrás.",
+          "stats": [
+            {
+              "type": "damage",
+              "label": "Daño",
+              "projectiles": 9,
+              "damageByLevel": [
+                320, 352, 384, 416, 448, 480, 512, 544, 576, 608, 640
+              ]
+            },
+            {
+              "type": "range",
+              "label": "Alcance",
+              "value": "Largo"
+            }
+          ]
+        }
+      ]
+    },
+    "gadgets": [
+      {
+        "title": "Paso al frente",
+        "description": "Shelly se impulsa hacia delante o hacia la dirección elegida y recarga la munición por completo.",
+        "buffieDescription": "No recibe daño al impulsarse",
+        "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Gadgets/shelly-gadget-1.png",
+        "reloadTime": 20
+      },
+      {
+        "title": "Tiro al plato",
+        "description": "Shelly concentra sus disparos sobre un área más pequeña y gana alcance. Se puede usar 3 veces por activación.",
+        "buffieDescription": "Los ataques ralentizan a los enemigos. La duración aumenta con cada golpe.",
+        "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Gadgets/shelly-gadget-2.png",
+        "reloadTime": 18
+      }
+    ],
+    "starPowers": [
+      {
+        "title": "Choque Mate",
+        "description": "Las superbalas de Shelly ralentizan a los enemigos durante 2 segundos.",
+        "buffieDescription": "Shelly usa los proyectiles 'Aliento de dragón' patentados por Draco Pin-Neutral para crear un incendio con el súper.",
+        "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Star-Powers/shelly-star-power-1.png"
+      },
+      {
+        "title": "Primeros auxilios",
+        "description": "Cuando la salud de Shelly está por debajo del 40%, recupera salud automáticamente.",
+        "buffieDescription": "Obtiene un 15% de velocidad de movimiento durante 3 segundos.",
+        "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Star-Powers/shelly-star-power-2.png"
+      }
+    ],
+    "hypercharge": {
+      "title": "A dos cañones",
+      "description": "El radio de acción de las Superbalas aumenta un 33%.",
+      "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Hypercharge/shelly-hypercharge.png",
+      "stats": {
+        "speed": "+20%",
+        "damage": "+5%",
+        "shield": "+5%"
+      }
+    },
+    "buffiesImages": {
+      "gadget": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Buffies/shelly-gadget-buffie.png",
+      "starPower": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Buffies/shelly-star-power-buffie.png",
+      "hypercharge": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Buffies/shelly-hypercharge-buffie.png"
+    },
+    "skins": [
+      {
+        "name": "Shelly Estrella",
+        "imageUrl": "https://static.wikia.nocookie.net/brawlstars/images/d/de/Shelly_Skin-Star.png",
+        "obtain": [
+          {
+            "method": "Evento",
+            "description": "Gratis por registrarse antes de 2019"
+          }
+        ],
+        "rarity": {
+          "title": "Super especial",
+          "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Rarity/super-rare.png"
+        },
+        "theme": [
+          {
+            "title": "Starr Park",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/starr-park-origins.png"
+          }
+        ]
+      },
+      {
+        "name": "Shelly Bandida",
+        "imageUrl": "https://static.wikia.nocookie.net/brawlstars/images/5/54/Shelly_Skin-Bandita.png",
+        "obtain": [
+          { "method": "Gemas", "amount": 29 },
+          { "method": "Blines", "amount": 1000 }
+        ],
+        "rarity": {
+          "title": "Super especial",
+          "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Rarity/super-rare.png"
+        },
+        "theme": [
+          {
+            "title": "Bandidos",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/outlaws.png"
+          }
+        ]
+      },
+      {
+        "name": "Shelly PSG",
+        "imageUrl": "https://static.wikia.nocookie.net/brawlstars/images/f/ff/Shelly_Skin-PSG.png",
+        "obtain": [
+          { "method": "Evento", "description": "Gratis al ganar la PSG Cup" },
+          { "method": "Gemas", "amount": 79 },
+          { "method": "Blines", "amount": 2750 }
+        ],
+        "rarity": {
+          "title": "Especial",
+          "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Rarity/rare.png"
+        },
+        "theme": [
+          {
+            "title": "PSG",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/psg.png"
+          }
+        ]
+      },
+      {
+        "name": "Shelly Boca Juniors",
+        "imageUrl": "https://static.wikia.nocookie.net/brawlstars/images/6/62/Shelly_Skin-Boca_Juniors.png",
+        "obtain": [{ "method": "Gemas", "amount": 49 }],
+        "rarity": {
+          "title": "Super especial",
+          "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Rarity/super-rare.png"
+        },
+        "theme": [
+          {
+            "title": "Master League de Latinoamerica",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/latin-america-master-league.png"
+          }
+        ]
+      },
+      {
+        "name": "Shelly América",
+        "imageUrl": "https://static.wikia.nocookie.net/brawlstars/images/d/d1/Shelly_Skin-America.png",
+        "obtain": [{ "method": "Gemas", "amount": 49 }],
+        "rarity": {
+          "title": "Super especial",
+          "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Rarity/super-rare.png"
+        },
+        "theme": [
+          {
+            "title": "Master League de Latinoamerica",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/latin-america-master-league.png"
+          }
+        ]
+      },
+      {
+        "name": "Shelly U. de Chile",
+        "imageUrl": "https://static.wikia.nocookie.net/brawlstars/images/3/3e/Shelly_Skin-U_De_Chile.png",
+        "obtain": [{ "method": "Gemas", "amount": 49 }],
+        "rarity": {
+          "title": "Super especial",
+          "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Rarity/super-rare.png"
+        },
+        "theme": [
+          {
+            "title": "Master League de Latinoamerica",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/latin-america-master-league.png"
+          }
+        ]
+      },
+      {
+        "name": "Shelly Bruja",
+        "imageUrl": "https://static.wikia.nocookie.net/brawlstars/images/d/dc/Shelly_Skin-Witch.png",
+        "obtain": [{ "method": "Gemas", "amount": 149 }],
+        "rarity": {
+          "title": "Epica",
+          "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Rarity/epic.png"
+        },
+        "theme": [
+          {
+            "title": "Brawl-o-ween",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/brawl-o-ween.png"
+          }
+        ]
+      },
+      {
+        "name": "Shelly Princesa",
+        "imageUrl": "https://static.wikia.nocookie.net/brawlstars/images/0/08/Shelly_Skin-Princess.png",
+        "obtain": [
+          { "method": "Brawl Pass", "description": "Exclusiva del Brawl Pass" }
+        ],
+        "rarity": {
+          "title": "Especial",
+          "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Rarity/rare.png"
+        },
+        "theme": [
+          {
+            "title": "Brawl Pass",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/brawl-pass.png"
+          },
+          {
+            "title": "Cuentos",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/once-upon.png"
+          }
+        ]
+      },
+      {
+        "name": "Shelly Squad Busters",
+        "imageUrl": "https://static.wikia.nocookie.net/brawlstars/images/0/00/Shelly_Skin-Squad_Buster.png",
+        "obtain": [
+          {
+            "method": "Evento",
+            "description": "Gratis al llegar a 30M de pre-registros en Squad Busters"
+          }
+        ],
+        "rarity": {
+          "title": "Mitica",
+          "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Rarity/mythic.png"
+        },
+        "theme": [
+          {
+            "title": "Squad Busters",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/squad-busters.png"
+          }
+        ]
+      },
+      {
+        "name": "Shelly Clásica",
+        "imageUrl": "https://static.wikia.nocookie.net/brawlstars/images/d/db/Shelly_Skin-Classic.png",
+        "obtain": [
+          {
+            "method": "Evento",
+            "description": "Gratis como regalo de Brawlidad en 2022"
+          }
+        ],
+        "rarity": {
+          "title": "Super especial",
+          "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Rarity/super-rare.png"
+        },
+        "theme": [
+          {
+            "title": "Aniversario",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/anniversary.png"
+          }
+        ]
+      },
+      {
+        "name": "Shelly Sheriff",
+        "imageUrl": "https://static.wikia.nocookie.net/brawlstars/images/3/3e/Shelly_Skin-Sheriff.png",
+        "obtain": [
+          {
+            "method": "Evento",
+            "description": "Gratis en megacajas"
+          },
+          { "method": "Gemas", "amount": 79 },
+          { "method": "Blines", "amount": 2750 }
+        ],
+        "rarity": {
+          "title": "Especial",
+          "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Rarity/rare.png"
+        },
+        "theme": [
+          {
+            "title": "Bandidos",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/outlaws.png"
+          }
+        ]
+      },
+      {
+        "name": "Shelly Estelar",
+        "imageUrl": "https://static.wikia.nocookie.net/brawlstars/images/9/93/Shelly_Skin-Stellar.png",
+        "obtain": [
+          {
+            "method": "Evento",
+            "description": "Gratis en megacajas"
+          },
+          { "method": "Gemas", "amount": 149 },
+          { "method": "Blines", "amount": 5000 }
+        ],
+        "rarity": {
+          "title": "Epica",
+          "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Rarity/epic.png"
+        },
+        "theme": [
+          {
+            "title": "Varios",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/misc.png"
+          }
+        ]
+      },
+      {
+        "name": "Shelly Hechicera",
+        "imageUrl": "https://static.wikia.nocookie.net/brawlstars/images/f/fa/Shelly_Skin-Hoot_Hoot.png",
+        "obtain": [{ "method": "Gemas", "amount": 199 }],
+        "rarity": {
+          "title": "Mitica",
+          "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Rarity/mythic.png"
+        },
+        "theme": [
+          {
+            "title": "Brawl-o-Ween",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/brawl-o-ween.png"
+          }
+        ]
+      },
+      {
+        "name": "Shelly Oriental",
+        "imageUrl": "https://static.wikia.nocookie.net/brawlstars/images/3/3a/Shelly_Skin-Shelly_Dancer.png",
+        "obtain": [
+          { "method": "Brawl Pass", "description": "Se obtiene en Brawl Pass" },
+          { "method": "Gemas", "amount": 149 },
+          { "method": "Blines", "amount": 5000 }
+        ],
+        "rarity": {
+          "title": "Epica",
+          "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Rarity/epic.png"
+        },
+        "theme": [
+          {
+            "title": "Brawl Pass",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/brawl-pass.png"
+          },
+          {
+            "title": "Arenas del tiempo",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/sands-of-time.png"
+          }
+        ]
+      },
+      {
+        "name": "Shelly Oriental Malva",
+        "imageUrl": "https://static.wikia.nocookie.net/brawlstars/images/6/63/Shelly_Skin-Shelly_Dancer_Dahlia.png",
+        "obtain": [
+          {
+            "method": "Brawl Pass",
+            "description": "Se obtiene en Brawl Pass Plus"
+          },
+          { "method": "Gemas", "amount": 149 },
+          { "method": "Blines", "amount": 5000 }
+        ],
+        "rarity": {
+          "title": "Epica",
+          "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Rarity/epic.png"
+        },
+        "theme": [
+          {
+            "title": "Brawl Pass",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/brawl-pass.png"
+          },
+          {
+            "title": "Arenas del tiempo",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/sands-of-time.png"
+          }
+        ]
+      },
+      {
+        "name": "Shelly Oriental Turquesa",
+        "imageUrl": "https://static.wikia.nocookie.net/brawlstars/images/3/31/Shelly_Skin-Shelly_Dancer_Iris.png",
+        "obtain": [
+          {
+            "method": "Brawl Pass",
+            "description": "Se obtiene en Brawl Pass Plus"
+          },
+          { "method": "Gemas", "amount": 149 },
+          { "method": "Blines", "amount": 5000 }
+        ],
+        "rarity": {
+          "title": "Epica",
+          "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Rarity/epic.png"
+        },
+        "theme": [
+          {
+            "title": "Brawl Pass",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/brawl-pass.png"
+          },
+          {
+            "title": "Arenas del tiempo",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/sands-of-time.png"
+          }
+        ]
+      },
+      {
+        "name": "Shelly Plateada",
+        "imageUrl": "https://static.wikia.nocookie.net/brawlstars/images/3/35/Shelly_Skin-True_Silver.png",
+        "obtain": [{ "method": "Monedas", "amount": 10000 }],
+        "theme": [
+          {
+            "title": "Aspectos plateados",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/true-silver.png"
+          }
+        ]
+      },
+      {
+        "name": "Shelly Dorada",
+        "imageUrl": "https://static.wikia.nocookie.net/brawlstars/images/b/b5/Shelly_Skin-True_Gold.png",
+        "obtain": [{ "method": "Monedas", "amount": 25000 }],
+        "theme": [
+          {
+            "title": "Aspectos dorados",
+            "imageUrl": "https://raw.githubusercontent.com/PavloooVA/FanKit-Brawl-Stars/refs/heads/main/Skins-Theme/true-gold.png"
+          }
+        ]
+      }
+    ]
+  }
+]
